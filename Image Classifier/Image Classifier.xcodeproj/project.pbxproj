@@ -6,17 +6,32 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		49FE3F402E5F0D7500BE0E2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49FE3F3C2E5F0D7500BE0E2D /* Assets.xcassets */; };
+		49FE3F412E5F0D7500BE0E2D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE3F3D2E5F0D7500BE0E2D /* ContentView.swift */; };
+		49FE3F422E5F0D7500BE0E2D /* MainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE3F3E2E5F0D7500BE0E2D /* MainApp.swift */; };
+		49FE3F442E5F0DC600BE0E2D /* CurrencyClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 49FE3F432E5F0DC600BE0E2D /* CurrencyClassifier.mlmodel */; };
+		49FE3F462E5F0E1000BE0E2D /* CurrencyDetectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE3F452E5F0E1000BE0E2D /* CurrencyDetectionViewModel.swift */; };
+		49FE3F482E5F0E1F00BE0E2D /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE3F472E5F0E1F00BE0E2D /* ImagePicker.swift */; };
+		49FE3F4A2E5F0E3000BE0E2D /* ActionButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE3F492E5F0E3000BE0E2D /* ActionButtonsView.swift */; };
+		49FE3F4C2E5F0E3E00BE0E2D /* CurrencyResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE3F4B2E5F0E3E00BE0E2D /* CurrencyResultView.swift */; };
+		49FE3F4E2E5F0E4B00BE0E2D /* ImageDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE3F4D2E5F0E4B00BE0E2D /* ImageDisplayView.swift */; };
+		49FE3F502E5F0EC500BE0E2D /* CurrencyImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49FE3F4F2E5F0EC500BE0E2D /* CurrencyImageClassifier.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		49FE3F2E2E5E518A00BE0E2D /* Image Classifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Classifier.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49FE3F3C2E5F0D7500BE0E2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49FE3F3D2E5F0D7500BE0E2D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		49FE3F3E2E5F0D7500BE0E2D /* MainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainApp.swift; sourceTree = "<group>"; };
+		49FE3F432E5F0DC600BE0E2D /* CurrencyClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CurrencyClassifier.mlmodel; sourceTree = "<group>"; };
+		49FE3F452E5F0E1000BE0E2D /* CurrencyDetectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyDetectionViewModel.swift; sourceTree = "<group>"; };
+		49FE3F472E5F0E1F00BE0E2D /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		49FE3F492E5F0E3000BE0E2D /* ActionButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButtonsView.swift; sourceTree = "<group>"; };
+		49FE3F4B2E5F0E3E00BE0E2D /* CurrencyResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyResultView.swift; sourceTree = "<group>"; };
+		49FE3F4D2E5F0E4B00BE0E2D /* ImageDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDisplayView.swift; sourceTree = "<group>"; };
+		49FE3F4F2E5F0EC500BE0E2D /* CurrencyImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyImageClassifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		49FE3F302E5E518A00BE0E2D /* Image Classifier */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Image Classifier";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		49FE3F2B2E5E518A00BE0E2D /* Frameworks */ = {
@@ -32,7 +47,7 @@
 		49FE3F252E5E518900BE0E2D = {
 			isa = PBXGroup;
 			children = (
-				49FE3F302E5E518A00BE0E2D /* Image Classifier */,
+				49FE3F3F2E5F0D7500BE0E2D /* Image Classifier */,
 				49FE3F2F2E5E518A00BE0E2D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +58,23 @@
 				49FE3F2E2E5E518A00BE0E2D /* Image Classifier.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		49FE3F3F2E5F0D7500BE0E2D /* Image Classifier */ = {
+			isa = PBXGroup;
+			children = (
+				49FE3F3C2E5F0D7500BE0E2D /* Assets.xcassets */,
+				49FE3F3E2E5F0D7500BE0E2D /* MainApp.swift */,
+				49FE3F3D2E5F0D7500BE0E2D /* ContentView.swift */,
+				49FE3F4D2E5F0E4B00BE0E2D /* ImageDisplayView.swift */,
+				49FE3F4B2E5F0E3E00BE0E2D /* CurrencyResultView.swift */,
+				49FE3F492E5F0E3000BE0E2D /* ActionButtonsView.swift */,
+				49FE3F472E5F0E1F00BE0E2D /* ImagePicker.swift */,
+				49FE3F452E5F0E1000BE0E2D /* CurrencyDetectionViewModel.swift */,
+				49FE3F4F2E5F0EC500BE0E2D /* CurrencyImageClassifier.swift */,
+				49FE3F432E5F0DC600BE0E2D /* CurrencyClassifier.mlmodel */,
+			);
+			path = "Image Classifier";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +91,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				49FE3F302E5E518A00BE0E2D /* Image Classifier */,
 			);
 			name = "Image Classifier";
 			packageProductDependencies = (
@@ -109,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49FE3F402E5F0D7500BE0E2D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +149,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49FE3F462E5F0E1000BE0E2D /* CurrencyDetectionViewModel.swift in Sources */,
+				49FE3F4C2E5F0E3E00BE0E2D /* CurrencyResultView.swift in Sources */,
+				49FE3F442E5F0DC600BE0E2D /* CurrencyClassifier.mlmodel in Sources */,
+				49FE3F4A2E5F0E3000BE0E2D /* ActionButtonsView.swift in Sources */,
+				49FE3F482E5F0E1F00BE0E2D /* ImagePicker.swift in Sources */,
+				49FE3F502E5F0EC500BE0E2D /* CurrencyImageClassifier.swift in Sources */,
+				49FE3F4E2E5F0E4B00BE0E2D /* ImageDisplayView.swift in Sources */,
+				49FE3F412E5F0D7500BE0E2D /* ContentView.swift in Sources */,
+				49FE3F422E5F0D7500BE0E2D /* MainApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,6 +295,7 @@
 				DEVELOPMENT_TEAM = 5QJLL8HM6C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access your camera to be able to take a human pic for currency detection.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -288,6 +328,7 @@
 				DEVELOPMENT_TEAM = 5QJLL8HM6C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need to access your camera to be able to take a human pic for currency detection.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

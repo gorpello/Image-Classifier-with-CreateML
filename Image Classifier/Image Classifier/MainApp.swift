@@ -6,7 +6,7 @@
 import SwiftUI
 
 @main
-struct Image_ClassifierApp: App {
+struct MainApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
